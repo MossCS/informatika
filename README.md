@@ -1,0 +1,2 @@
+# informatika
+tugas sekola sat
