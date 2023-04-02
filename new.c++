@@ -25,9 +25,9 @@ int speedSet = 0;
 
 // SETUP LOOP
 void setup() {
-  myservo.attach(10);  // attaches the servo on pin 10 (SERVO_1 on the Motor Drive Shield to the servo object 
-  myservo.write(90); // tells the servo to position at 90-degrees ie. facing forward.
-  delay(1000); // delay for one seconds
+  myservo.attach(10);  
+  myservo.write(90); 
+  delay(1000); 
  }
 
 
@@ -94,8 +94,8 @@ void moveForward() {
     motorSet = "FORWARD";
     leftMotor1.run(FORWARD);      
     leftMotor2.run(FORWARD);      
-    rightMotor1.run(FORWARD);     // turn it on going forward
-    rightMotor2.run(FORWARD);     // turn it on going forward
+    rightMotor1.run(FORWARD);     
+    rightMotor2.run(FORWARD);     
   for (speedSet = 0; speedSet < MAX_SPEED; speedSet +=2) 
   {
     leftMotor1.setSpeed(speedSet);
