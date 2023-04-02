@@ -163,7 +163,8 @@ void turnAround() {
   leftMotor1.run(FORWARD);      
   leftMotor2.run(FORWARD);      
   rightMotor1.run(BACKWARD);    
-  rightMotor2.run(BACKWARD);     rightMotor1.setSpeed(speedSet+MAX_SPEED_OFFSET);      
+  rightMotor2.run(BACKWARD);
+rightMotor1.setSpeed(speedSet+MAX_SPEED_OFFSET);      
   rightMotor2.setSpeed(speedSet+MAX_SPEED_OFFSET);
   delay(1700); 
   motorSet = "FORWARD";
